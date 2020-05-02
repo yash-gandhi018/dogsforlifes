@@ -1,0 +1,144 @@
+/* body */
+body {
+  font-family: Montserrat;
+}
+
+#title {
+  color: #fff;
+}
+
+/* font of upper section  */
+.fnt1 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 3rem;
+  line-height: 1.5;
+  color: #fff;
+  margin-right: 1%;
+}
+
+/* contauner is full size as per its property */
+.container-fluid {
+  padding: 3% 15% 10%;
+  background-color: #ff4c68;
+
+}
+
+/* image */
+.iphone {
+  transform: rotate(25deg);
+  width: 60%;
+  position: absolute;
+  margin-left: 1rem;
+}
+
+/* padding from top */
+.navbar {
+  padding: 0 0 5rem;
+}
+
+/* navbar brand */
+.navbar-brand {
+  font-family: "ubuntu";
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+/* button */
+.btn {
+  margin:2% 3%;
+}
+
+/* nav item */
+.nav-item {
+  padding: 0 18px;
+}
+
+/* icons  */
+.fas {
+  size: 5px;
+  color: orange;
+  margin-bottom: 1rem;
+  width: 30%;
+}
+
+.row {
+  width: 100%;
+}
+
+/* feature block */
+#features {
+  text-align: center;
+  padding-top: 7%;
+  padding-bottom: 15%;
+  background-color: #fff;
+  position: relative;
+  z-index: 1;
+}
+
+.fa-heart {
+  color: red;
+}
+
+/* .font widrh */
+.w1 {
+  width: 100%;
+  text-align: center;
+}
+
+/* Testimonials section */
+#testimonials {
+  background-color: #fa744f;
+  text-align: center;
+}
+
+.testimonials-image {
+  width: 10%;
+  margin-left: 3%;
+  margin-top: 1%;
+  border-radius: 100%;
+}
+
+.testimonial-text {
+  color: #fff;
+  width: 50%;
+  margin-left: 25%;
+  padding-top: 1rem;
+  line-height: 1.5;
+  font-size: 2.5;
+}
+
+#press {
+  background: #fa744f;
+  text-align: center;
+}
+
+.press-logo {
+  padding: 10rem 2rem 2rem;
+  width: 2 0%;
+}
+
+#pricing {
+  text-align: center;
+  padding: 4% 2%;
+}
+#cta{
+  background-color: #ff4c68;
+  text-align: center;
+  color: #fff;
+  padding: 4% 15%;
+}
+#footer{
+  text-align: center;
+  padding-top: 3%;
+}
+
+
+@media (max-width:1039px) {
+  #title{
+    text-align: center;
+  }
+.iphone{
+  position: static;
+  transform: rotate(0);
+}
+}
